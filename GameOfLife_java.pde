@@ -14,7 +14,6 @@ void setup()
 {
   size(1600, 1200);
   curGrid = new int[width / cellSize][height / cellSize];
-  // nextGrid = new int[width / cellSize][height / cellSize];
   
   setupGrid(curGrid);
   curGrid[10][10] = 1;
